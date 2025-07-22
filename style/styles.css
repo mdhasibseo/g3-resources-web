@@ -22,6 +22,9 @@
     background-color:#FF900E ;
     color: white;
 }
+.orange{
+    color: #FF900E;
+}
 
 /*background-color*/
  .background-color{
@@ -46,8 +49,8 @@
     align-items: center;
 }
 .navber, .banner{
-    max-width: 1920px;
-    margin: 0 4rem;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 .brand{
     font-weight: bold;
@@ -61,7 +64,7 @@
 }
 .banner-heading{
     font-weight: bold;
-    font-size: 4 rem;
+    font-size: 4rem;
 }
 .btn-1{
     padding: 20px 25px;
@@ -71,13 +74,33 @@
     border: none;
 }
 .banner-image{
-    max-width: 1440px;
     width: 100%;
     
 }
-
-
-
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.teams{
+    align-items: center;
+}
+.teams-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+main>section{
+    margin-top: 130px;
+}
+.teams-text{
+    margin-left: 130px;
+}
+.teams-heading{
+    font-size: 3rem;
+}
+.quick{
+    font-weight: 500px;
+}
 
 
 @media screen and (max-width:576px){
