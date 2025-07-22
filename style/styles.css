@@ -46,8 +46,8 @@
     align-items: center;
 }
 .navber, .banner{
-    max-width: 1400px;
-    margin: 0 auto;
+    max-width: 1920px;
+    margin: 0 4rem;
 }
 .brand{
     font-weight: bold;
@@ -71,6 +71,7 @@
     border: none;
 }
 .banner-image{
+    max-width: 1440px;
     width: 100%;
     
 }
