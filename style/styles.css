@@ -102,6 +102,31 @@ main>section{
 .quick{
     font-weight: 500px;
 }
+.card{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.card-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+.card-number{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 2.08rem;
+}
 
 
 @media screen and (max-width:576px){
