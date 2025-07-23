@@ -94,6 +94,7 @@ main>section{
 }
 .teams-text{
     margin-left: 130px;
+    max-width: 540px;
 }
 .teams-heading{
     font-size: 3rem;
@@ -104,7 +105,15 @@ main>section{
 
 
 @media screen and (max-width:576px){
-    .navber, .nav-link{
+    .navber, 
+    .nav-link,
+    .teams{
         flex-direction: column;
     }
+    .teams-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+.teams-text{
+    margin: 20px auto;
+}
 }
