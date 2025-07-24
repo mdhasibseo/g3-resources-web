@@ -173,6 +173,10 @@ main>section{
     font-size:4rem ;
     font-weight:700 ;
 }
+.sponsor-title{
+    font-weight: bold;
+    font-size: 2.05rem;
+}
 @media screen and (max-width:576px){
     .navber, 
     .nav-link,
