@@ -182,6 +182,7 @@ main>section{
     .nav-link,
     .love,
     .teams{
+        padding: 20px;
         flex-direction: column;
     }
     .teams-img,
@@ -189,9 +190,17 @@ main>section{
      .sponsor-image{
         grid-template-columns: repeat(1,1fr);
     }
+    .love{
+        padding: 20px;
+    }
+    .background-color{
+        padding: 20px;
+    }
     .teams-img{
-        width: 100%;
         justify-items: center;
+    }
+    .teams-image{
+        width: 100%;
     }
     .sponsor-image{
        
@@ -202,6 +211,9 @@ main>section{
     .fact-container{
         justify-items: center;
         gap: 24px;
+    }
+    .some-fact{
+        padding: 20px;
     }
     .banner-heading{
     
