@@ -185,14 +185,30 @@ main>section{
      .sponsor-image{
         grid-template-columns: repeat(1,1fr);
     }
+    .teams-img{
+        width: 100%;
+        justify-items: center;
+    }
     .sponsor-image{
+       
         justify-items: center;
         gap: 50px;
+      
     }
     .fact-container{
         justify-items: center;
         gap: 24px;
     }
+    .banner-heading{
+    
+    font-size: 2.5rem;
+}
+   .btn-1{
+    padding: 10px 15px;
+    font-size:1rem;
+    border-radius: 8px;
+    border: none;
+}
 .teams-text{
     margin: 20px auto;
 }
@@ -201,6 +217,15 @@ main>section{
 }
 #last-btn{
    margin: 0 auto;
-   
+    padding: 22px 21px;
+    font-size: 1rem;
+    
+}
+#btn-text{
+    font-size:2rem ;
+ 
+}
+.pic{
+    width: 100px;
 }
 }
