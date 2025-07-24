@@ -127,8 +127,19 @@ main>section{
     font-weight: 600;
     font-size: 2.08rem;
 }
-
-
+.sponsor-info{
+    max-width: 540px;
+    margin:50px auto ;
+    text-align: center;
+}
+.sponsor-image{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+}
+.sponsor-image img{
+    filter: grayscale(100%);
+}
 @media screen and (max-width:576px){
     .navber, 
     .nav-link,
@@ -136,8 +147,13 @@ main>section{
         flex-direction: column;
     }
     .teams-img,
-     .fact-container{
+     .fact-container,
+     .sponsor-image{
         grid-template-columns: repeat(1,1fr);
+    }
+    .sponsor-image{
+        justify-items: center;
+        gap: 50px;
     }
     .fact-container{
         justify-items: center;
